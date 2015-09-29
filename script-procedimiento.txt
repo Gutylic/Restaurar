@@ -1,0 +1,12 @@
+
+ALTER proc [dbo].[Restaurar] as
+
+ALTER DATABASE [primero] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+
+Restore Database Primero
+from disk = 'z:\Ejercicios.bak'
+with file = 1, recovery, replace
+
+ALTER DATABASE [primero] SET MULTI_USER WITH ROLLBACK IMMEDIATE
+
+------------ cambiar el alter del proc solamente por create, Primero por VPS_Ejercicios y se almacena en el master

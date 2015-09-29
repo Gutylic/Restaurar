@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="master" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=GUSTAVO;Initial Catalog=master;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="masterConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Restaurar" Method="Restaurar">
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

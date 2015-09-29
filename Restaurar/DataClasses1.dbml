@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Busquedas" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=GUSTAVO;Initial Catalog=Busquedas;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BusquedasConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Limpiador_Back_UP" Method="Limpiador_Back_UP">
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

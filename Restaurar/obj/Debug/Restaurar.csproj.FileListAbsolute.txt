@@ -1,0 +1,6 @@
+C:\Users\Guty\Desktop\Restaurar\Restaurar_Back\Restaurar\bin\Restaurar.dll.config
+C:\Users\Guty\Desktop\Restaurar\Restaurar_Back\Restaurar\bin\Restaurar.dll
+C:\Users\Guty\Desktop\Restaurar\Restaurar_Back\Restaurar\bin\Restaurar.pdb
+C:\Users\Guty\Desktop\Restaurar\Restaurar_Back\Restaurar\obj\Debug\Restaurar.csprojResolveAssemblyReference.cache
+C:\Users\Guty\Desktop\Restaurar\Restaurar_Back\Restaurar\obj\Debug\Restaurar.dll
+C:\Users\Guty\Desktop\Restaurar\Restaurar_Back\Restaurar\obj\Debug\Restaurar.pdb
