@@ -1,12 +1,9 @@
 
-ALTER proc [dbo].[Restaurar] as
+CREATE proc [dbo].[Restaurar] as
+ 
 
-ALTER DATABASE [primero] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+ALTER DATABASE [Busquedas] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+RESTORE DATABASE [Busquedas] FROM  DISK = N'C:\BackUP\Busquedas.bak' WITH  FILE = 1,replace,  MOVE N'Ejercicios' TO N'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\Busquedas.mdf',  MOVE N'Ejercicios_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\Busquedas_log.ldf',  NORECOVERY,  NOUNLOAD,  STATS = 5
+RESTORE DATABASE [Busquedas] FROM  DISK = N'C:\BackUP\Busquedas.bak' WITH  FILE = 2,replace,  NOUNLOAD,  STATS = 5
+ALTER DATABASE [Busquedas] SET MULTI_USER WITH ROLLBACK IMMEDIATE
 
-Restore Database Primero
-from disk = 'z:\Ejercicios.bak'
-with file = 1, recovery, replace
-
-ALTER DATABASE [primero] SET MULTI_USER WITH ROLLBACK IMMEDIATE
-
------------- cambiar el alter del proc solamente por create, Primero por VPS_Ejercicios y se almacena en el master
